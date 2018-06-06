@@ -1,0 +1,49 @@
+body, h1, p {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #dadada;
+  text-align: center;
+}
+
+.pokemon {
+  background-color: #ffffff;
+  width: 300px;
+  margin: 270px auto;
+  text-align: center;
+  display: inline-block;
+}
+
+.pokemon img {
+margin-top: -200px;
+}
+
+
+.pokemon h1 {
+  color: orange;
+  border-bottom: 5px solid orange;
+  display: inline-block;
+  padding: 0 40px;
+  font-family: 'Permanent Marker', cursive;
+}
+
+.pokemon p {
+  padding: 30px;
+}
+
+.pokemon p span {
+  background-color: #ffbed9;
+
+}
+
+.pokemon.firey h1 {
+  color: #ff4d00;
+  border-bottom-color: #ff4d00;
+}
+
+.pokemon.cobook h1 {
+  color: #43b6e7;
+  border-bottom-color: #43b6e7;
+}
